@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+* {box-sizing: border-box;
+margin:0px;} 
+.header { 
+overflow: hidden; 
+background-color:white; 
+padding: 10px;
+} 
+.header a {  
+color: black; 
+text-align: center; 
+padding: 12px; 
+text-decoration: none; 
+font-size: 18px; 
+border-radius: 4px; 
+} 
+.header a:hover { 
+background-color: #ddd; 
+color: black; 
+} 
+.header a.active { 
+background-color: dodgerblue; 
+color: white; 
+} 
+h1{ 
+color:blueviolet; 
+font-family: Berlin Sans FB; 
+} 
+body{ 
+background-color:whitesmoke; 
+} 
+p{ 
+font-family:Berlin Sans FB; 
+margin-bottom:0px; 
+padding:8px;
+} 
+.form-container { 
+display: grid; 
+place-items: center; 
+font-family: Berlin Sans FB; 
+font-size:100%; 
+} 
+input{
+  font-family:Berlin Sans FS;
+  font-size:100%;
+}
+label{
+    font-size:120%;
+}
+.cen{
+    text-align: center;
+}
+img{
+  padding:8px;
+  border-radius:25px;
+}
+</style> 
+</head> 
+<body> 
+<div class="header"> 
+<em><h1>BOOK HOTELS</h1></em>
+<div style="float:right;"> 
+<a class="active" href="Home.html">Home</a> 
+<a href="Login.html">Login</a> 
+<a href="Register.html">Register</a> 
+<a href="About us.html">About us</a> 
+</div> 
+</div>  
+<br><br>
+<div class="form-container"> 
+<form action="home.php" method="post"> 
+<label>Search any hotel:</label><br><br>
+<input type="text" name="hotel" size="60">
+  <br><br>
+<div class="cen"><input type="submit" value="Submit"></div>
+</form>
+</div> 
+<img src="hotel.jpg" style="float:right;" height="350" width="500"> 
+<br><br><br><br><br><br><br><p style="font-size:300%;text-align: justify;"> 
+A dream stay<br> 
+for a bucket list trip 
+</p> 
+<p style="font-size:200%;">Make it a trip to remember in a holiday home</p>
+</body> 
+</html> 

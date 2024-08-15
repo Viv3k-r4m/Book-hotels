@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+* {box-sizing: border-box;
+margin:0px;} 
+body{
+    background-image:url("hotelp.jpeg");
+    background-size:cover;
+}
+.header { 
+overflow: hidden; 
+background-color:whitesmoke; 
+padding: 16px; 
+} 
+h1{ 
+color:blueviolet; 
+font-family: Berlin Sans FB; 
+} 
+input,label{
+    height: 30px;
+    font-family: Berlin Sans FB;
+    font-size:120%;
+}
+.form-container { 
+display: grid;
+background-color: rgba(255,255,255,.7); 
+width:500px;
+height:585px;
+float:right;
+border:2px solid rgba(255,255,255,.5);
+border-collapse:collapse;
+place-items: center; 
+} 
+.cen{
+    text-align: center;
+}
+</style>
+</head> 
+<body> 
+<div class="header"> 
+<em><h1>BOOK HOTELS</h1></em>
+</div> 
+<div class="form-container">
+<form action="payment.php" method="post">
+    <label>Hotel</label><br>
+    <input type="text" name="hotel" size="35%"><br><br>
+    <label>Days</label><br>
+    <input type="text" name="days" size="35%"><br><br>
+    <label>Rooms</label><br>
+    <input type="text" name="rooms" size="35%"><br><br>
+    <label>Adults</label><br>
+    <input type="text" name="adult" size="35%"><br><br>
+    <label>Children</label><br>
+    <input type="text" name="child" size="35%"><br><br>
+    <div class="cen"><input type="submit" value="Pay" size="50%"><br></div>
+</form>
+</div>
+</body>
+</html>

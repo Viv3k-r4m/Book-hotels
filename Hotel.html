@@ -1,0 +1,179 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+* {box-sizing: border-box;
+margin:0px;} 
+.header { 
+overflow: hidden; 
+background-color:whitesmoke; 
+padding: 16px;
+} 
+.header a { 
+float: left; 
+color: black; 
+text-align: center; 
+padding: 12px; 
+text-decoration: none; 
+font-size: 18px; 
+line-height: 25px; 
+border-radius: 4px; 
+} 
+.header h1{ 
+color:blueviolet; 
+font-family: Berlin Sans FB; 
+} 
+.header a:hover { 
+background-color: #ddd; 
+color: black; 
+} 
+.header a.active { 
+background-color: dodgerblue; 
+color: white; 
+} 
+.header-right { 
+float: right; 
+} 
+body{
+    background-image:url("sea.jpg");
+    background-size:contain;
+}
+.bg{
+background-color: rgba(255,255,255,.8);
+width:700px;
+height:250px;
+margin:20px;
+border:2px solid rgba(255,255,255,.5);
+border-radius: 25px;
+border-collapse:collapse;
+font-family:Times New Roman;
+font-size:120%;
+}
+.bg h2{
+    color:black;
+    padding:3px;
+}
+.bg a:link,a:visited,a:hover,a:active {
+    color:black;
+    text-decoration: none;
+}
+.bg img{
+    border-radius:25px;
+    padding:8px;
+}
+ul{
+    text-align:justify;
+}
+button{
+    font-family:Berlin Sans FB;
+    font-size:100%;
+    margin:25px;
+}
+</style> 
+</head> 
+<body> 
+<div class="header"> 
+<em><h1>BOOK HOTELS</h1></em>
+<div class="header-right"> 
+    <a class="active" href="Hotel.html">Hotels</a> 
+    <a href="Help.html">Help</a> 
+    <a href="Logout.php">Logout</a>
+    </div> 
+</div>
+<br>
+<div class="bg">
+    <br>
+    <img src="h1.jpg" height="200" width="300" style="float:right;">
+    <a href="Hotel1.html"><h2>Hotel 1</h2></a><br>
+    <ul style="list-style-type: square;">
+    <li>4/5</li>
+    <li>At city A</li>
+    <li>3-4 minute walk from XYZ beach</li>
+    <li>Couple-friendly</li>
+    <li>Great location near beach with ample parking</li>
+</ul>
+</div>
+<div class="bg">
+    <br>
+    <img src="h2.jpg" height="200" width="300" style="float:right;">
+    <a href="Hotel2.html"><h2>Hotel 2</h2></a><br>
+    <ul style="list-style-type: square;">
+    <li>3.9/5</li>
+    <li>At city B</li>
+    <li>1.3km drive to AB beach</li>
+    <li>Couple-friendly</li>
+    <li>Affordable,cozy and convenient</li>
+</ul>
+</div>
+<div class="bg">
+    <br>
+    <img src="h3.jpg" height="200" width="300" style="float:right;">
+    <a href="Hotel3.html"><h2>Hotel 3</h2></a><br>
+    <ul style="list-style-type: square;">
+    <li>4.3/5</li>
+    <li>At city B</li>
+    <li>2-3 mins walk from BA beach</li>
+    <li>Couple-friendly</li>
+    <li>Breakfast included</li>
+</ul>
+</div>
+<div class="bg">
+    <br>
+    <img src="h4.jpg" height="200" width="300" style="float:right;">
+    <a href="Hotel4.html"><h2>Hotel 4</h2></a><br>
+    <ul style="list-style-type: square;">
+    <li>4.6/5</li>
+    <li>At city C</li>
+    <li>1.4km drive to CV church</li>
+    <li>Family-friendly</li>
+    <li>Ideal location,secure with pool</li>
+</ul>
+</div>
+<div class="bg">
+    <br>
+    <img src="h5.jpg" height="200" width="300" style="float:right;">
+    <a href="Hotel5.html"><h2>Hotel 5</h2></a><br>
+    <ul style="list-style-type: square;">
+    <li>4.4/5</li>
+    <li>At city C</li>
+    <li>1-2 mins walk from BA beach</li>
+    <li>Family-friendly</li>
+</ul>
+</div>
+<div class="bg">
+    <br>
+    <img src="h6.png" height="200" width="300" style="float:right;">
+    <a href="Hotel6.html"><h2>Hotel 6</h2></a><br>
+    <ul style="list-style-type: square;">
+    <li>4.3/5</li>
+    <li>At city B</li>
+    <li>Family-friendly</li>
+    <li>Great location,affordable prices,delicious food</li>
+</ul>
+</div>
+<div class="bg">
+    <br>
+    <img src="h7.jpg" height="200" width="300" style="float:right;">
+    <a href="Hotel7.html"><h2>Hotel 7</h2></a><br>
+    <ul style="list-style-type: square;">
+    <li>4.3/5</li>
+    <li>At city D</li>
+    <li>3-4 minutes walk from KL beach</li>
+    <li>Family-friendly</li>
+</ul>
+</div>
+<div class="bg">
+    <br>
+    <img src="h8.jpg" height="200" width="300" style="float:right;">
+    <a href="Hotel8.html"><h2>Hotel 8</h2></a><br>
+    <ul style="list-style-type: square;">
+    <li>4.1/5</li>
+    <li>At city E</li>
+    <li>1.3km drive to AB beach</li>
+    <li>Family-friendly</li>
+    <li>Beachside hotel with pool and friendly staff</li>
+</ul>
+</div>
+<button onclick='document.location="Payment.html"'>Proceed to Pay</button>
+</body>
+</html>

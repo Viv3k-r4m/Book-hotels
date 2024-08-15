@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+* {box-sizing: border-box;
+margin:0px;} 
+.header { 
+overflow: hidden; 
+background-color:white; 
+padding: 16px;
+} 
+input{
+    height:30px;
+}
+.header a { 
+float: left; 
+color: black; 
+text-align: center; 
+padding: 12px; 
+text-decoration: none; 
+font-size: 18px; 
+line-height: 25px; 
+border-radius: 4px; 
+} 
+.header a:hover { 
+background-color: #ddd; 
+color: black; 
+} 
+.header a.active { 
+background-color: dodgerblue; 
+color: white; 
+} 
+.header-right { 
+float: right; 
+} 
+h1{ 
+color:blueviolet; 
+font-family: Berlin Sans FB; 
+} 
+body{ 
+background-color: whitesmoke; 
+} 
+.form-container { 
+display: grid; 
+place-items: center; 
+font-family:Berlin Sans FB; 
+font-size:120%; 
+border:2px solid rgba(255,255,255,.5);
+background-color: rgba(90,0,3,.5);
+border-radius:25px;
+width:580px;
+height:500px;
+margin:auto;
+} 
+.cen{
+    text-align: center;
+}
+</style> 
+</head> 
+<body> 
+<div class="header"> 
+<em><h1>BOOK HOTELS</h1></em>
+<div class="header-right"> 
+<a href="Hotel.html">Hotels</a> 
+<a class="active" href="Help.html">Help</a> 
+<a href="Logout.php">Logout</a> 
+</div> 
+</div> 
+<br><br><br><br>
+<div class="form-container">
+    <form action="help.php" method="post"> 
+    <label>Rate us out of 5</label><br>
+    <input type="radio" value="1" name="rate"><label>1</label><br>
+    <input type="radio" value="2" name="rate"><label>2</label><br>
+    <input type="radio" value="3" name="rate"><label>3</label><br>
+    <input type="radio" value="4" name="rate"><label>4</label><br>
+    <input type="radio" value="5" name="rate"><label>5</label><br><br>
+    <label>Ask Queries or give your feedback</label><br>
+    <input type="text" name="query" size="60%" style="height:90px;"><br><br>
+    <div class="cen"><input type="submit" value="Submit" size="50%"></div>
+    </form>
+</div>
+</body> 
+</html>  
